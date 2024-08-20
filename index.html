@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gerenciamento de Funcionários</title>
+</head>
+<body>
+    <h1>Cadastro de Funcionários</h1>
+    
+    <form id="formFuncionario">
+        <h2>Gerente</h2>
+        <label for="nomeGerente">Nome:</label>
+        <input type="text" id="nomeGerente" required>
+        <br>
+        <label for="idadeGerente">Idade:</label>
+        <input type="number" id="idadeGerente" required>
+        <br>
+        <label for="cargoGerente">Cargo:</label>
+        <input type="text" id="cargoGerente" required>
+        <br>
+        <label for="departamento">Departamento:</label>
+        <input type="text" id="departamento" required>
+        <br>
+
+        <h2>Desenvolvedor</h2>
+        <label for="nomeDev">Nome:</label>
+        <input type="text" id="nomeDev" required>
+        <br>
+        <label for="idadeDev">Idade:</label>
+        <input type="number" id="idadeDev" required>
+        <br>
+        <label for="cargoDev">Cargo:</label>
+        <input type="text" id="cargoDev" required>
+        <br>
+        <label for="linguagem">Linguagem de Programação:</label>
+        <input type="text" id="linguagem" required>
+        <br>
+
+        <button type="button" id="criarFuncionarios">Criar Funcionários</button>
+    </form>
+
+    <h2>Informações dos Funcionários</h2>
+    <p id="infoGerente"></p>
+    <p id="infoDev"></p>
+    <p id="erro" style="color: red;"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
